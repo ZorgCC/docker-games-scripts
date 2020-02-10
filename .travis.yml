@@ -1,0 +1,20 @@
+os: linux
+dist: bionic #https://docs.travis-ci.com/user/reference/overview/
+language: bash
+services:
+  - docker
+addons:
+  apt:
+    packages:
+      - docker-ce
+matrix:
+  include:
+#########################################
+####  Forked and fixed images
+#########################################
+#    - name: Zabbix [Agent + Java Gateway + Server with MySQL + Web Apache2 with MySQL]
+#      script:
+#      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+#      - docker build --compress -t epicmorg/zabbix-agent:latest zabbix/agent
+
+
