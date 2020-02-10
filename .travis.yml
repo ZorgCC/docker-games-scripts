@@ -10,11 +10,11 @@ addons:
 matrix:
   include:
 #########################################
-####  Forked and fixed images
+####  SteamCMD Base Image
 #########################################
-#    - name: Zabbix [Agent + Java Gateway + Server with MySQL + Web Apache2 with MySQL]
-#      script:
-#      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-#      - docker build --compress -t epicmorg/zabbix-agent:latest zabbix/agent
+    - name: SteamCMD Install
+      script:
+      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+      - docker build --compress -t epicmorg/steamcmd:latest linux/steamcmd
 
 
