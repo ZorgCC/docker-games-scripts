@@ -1,4 +1,4 @@
-Contributors
+:muscle: Contributors
 ============================================
 
 * **[Guahos](https://github.com/Guahos)**
@@ -11,7 +11,7 @@ Contributors
   * Maintainer of [base images (`edge` image)](https://github.com/EpicMorg/docker-scripts).
   
   
-Want be an contributor?
+:runner: Want be an contributor?
 ============================================
 
 * Look [here](https://github.com/EpicMorg/docker-games-scripts/blob/master/.github/CONTRIBUTING.md).
