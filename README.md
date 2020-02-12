@@ -1,8 +1,8 @@
-# Docker Games (scripsts)
+# :zap: Docker Games (scripsts)
 Awesome docker containers with some games, based on our main images
 
-# Supported games
+# :video_game: Supported games
 * [Here](GAMES.md)
 
-# Contributors
+# :speak_no_evil: Contributors
 * [Here](CONTRIBUTORS.md)
