@@ -13,7 +13,7 @@ WORKDIR $VALVE_STEAMCMD_FOLDER
 ##################################################################
 #                   installing steamcmd
 ##################################################################
-RUN mkdir -p $VALVE_STEAMCMD_FOLDER
+RUN mkdir -p $VALVE_STEAMCMD_FOLDER $VALVE_GAME_FOLDER
 ADD http://media.steampowered.com/installer/steamcmd_linux.tar.gz $VALVE_STEAMCMD_FOLDER
 
 RUN dpkg --add-architecture i386 && \
