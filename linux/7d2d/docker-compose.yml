@@ -11,4 +11,5 @@ services:
       - "8081:8081"
     restart: always
     volumes:
-      - /docker/7test/vol:/steamcmd/vol
+      - /docker/7test/vol:/valve/volume
+
