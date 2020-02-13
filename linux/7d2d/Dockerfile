@@ -17,4 +17,5 @@ WORKDIR ${VALVE_GAME_FOLDER}
 VOLUME ${VALVE_VOLUME_FOLDER}
 
 #Run the server
-ENTRYPOINT ${VALVE_GAME_FOLDER}/run_7d2d.sh
+CMD ["/entrypoint.sh", "-fg"]
+ENTRYPOINT ["/usr/bin/tini", "--"]
