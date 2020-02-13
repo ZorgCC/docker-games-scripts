@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  7d2d_server:
+    container_name: 7d2d_ds_v1
+    build: .
+    ports:
+      - "26900:26900"
+      - "26901:26901"
+      - "26902:26902"
+      - "8080:8080"
+      - "8081:8081"
+    restart: always
+    volumes:
+      - /docker/7test/vol:/steamcmd/vol
