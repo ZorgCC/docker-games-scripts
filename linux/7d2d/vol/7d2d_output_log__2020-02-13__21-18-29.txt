@@ -1,0 +1,418 @@
+Found path: /valve/game/7DaysToDieServer.x86_64
+Mono path[0] = '/valve/game/7DaysToDieServer_Data/Managed'
+Mono config path = '/valve/game/7DaysToDieServer_Data/MonoBleedingEdge/etc'
+Preloaded 'libMagick.so'
+Preloaded 'libeac_server.so'
+Preloaded 'libeasyanticheat.so'
+Preloaded 'libgetrss.so'
+Preloaded 'libsteam_api.so'
+Preloaded 'steamclient.so'
+Unable to preload the following plugins:
+	libMouseLib.so
+	libeac_server.so
+	libeasyanticheat.so
+	libgetrss.so
+	libsteam_api.so
+	steamclient.so
+	libMouseLib.so
+PlayerPrefs - Creating folder: /root/.config/unity3d/The Fun Pimps
+PlayerPrefs - Creating folder: /root/.config/unity3d/The Fun Pimps/7 Days To Die - Dedicated
+Initialize engine version: 2019.1.0f2 (292b93d75a2c)
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.300 seconds
+UnloadTime: 1.125985 ms
+2020-02-13T21:18:32 0.149 INF Awake IsFocused: True
+2020-02-13T21:18:32 0.151 INF Awake
+2020-02-13T21:18:32 0.479 INF Version: Alpha 18.3 (b4) Compatibility Version: Alpha 18.3, Build: Linux 64 Bit
+2020-02-13T21:18:32 0.480 INF System information:
+2020-02-13T21:18:32 0.856 INF    OS: Linux 3.10 Debian testing/unstable 64bit
+2020-02-13T21:18:32 0.858 INF    CPU: Intel(R) Xeon(R) CPU           E5440  @ 2.83GHz (cores: 4)
+2020-02-13T21:18:32 0.858 INF    RAM: 3788 MB
+2020-02-13T21:18:32 0.858 INF    GPU: Null Device (128 MB)
+2020-02-13T21:18:32 0.862 INF    Graphics API: NULL 1.0 [1.0] (shader level 3.0)
+2020-02-13T21:18:32 0.906 INF Last played version: Alpha 18.3
+2020-02-13T21:18:32 0.907 INF Local UTC offset: 0 hours
+2020-02-13T21:18:32 0.930 INF Command line arguments: /valve/game/7DaysToDieServer.x86_64 -logfile /valve/volume/7d2d_output_log__2020-02-13__21-18-29.txt -quit -batchmode -nographics -dedicated -configfile=/valve/volume/serverconfig.xml
+2020-02-13T21:18:32 0.937 INF Parsing server configfile: /valve/volume/serverconfig.xml
+2020-02-13T21:18:33 1.114 INF Parsing server configfile successfully completed
+2020-02-13T21:18:33 1.116 INF Starting dedicated server level=Navezgane game name=My Game
+2020-02-13T21:18:33 1.116 INF Maximum allowed players: 8
+2020-02-13T21:18:33 1.116 INF Game mode: GameModeSurvival
+2020-02-13T21:18:33 1.116 INF Dedicated server only build
+2020-02-13T21:18:33 1.118 INF Not running in Big Picture Mode, no on-screen keyboard available
+2020-02-13T21:18:33 1.119 INF Starting PlayerInputManager...
+2020-02-13T21:18:33 1.166 INF InControl (version 1.6.17 build 9143, native module = False, XInput = False)
+2020-02-13T21:18:33 1.537 INF Starting UserProfileManager...
+2020-02-13T21:18:33 1.692 INF Occlusion: Awake
+2020-02-13T21:18:33 1.699 INF Texture quality is set to 3
+2020-02-13T21:18:33 1.824 INF [MODS] No mods folder found
+2020-02-13T21:18:33 1.848 INF Permissions file 'serveradmin.xml' not found, creating.
+2020-02-13T21:18:33 1.884 INF Command "chunkcache" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.887 INF Command "debugshot" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.887 INF Command "debugweather" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.889 INF Command "getgamepref" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.890 INF Command "getgamestat" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.890 INF Command "getoptions" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.890 INF Command "gettime" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.891 INF Command "gfx" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.892 INF Command "help" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.893 INF Command "listplayerids" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.894 INF Command "listthreads" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.895 INF Command "memcl" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:33 1.904 INF Command "settempunit" has no explicit permission level, but a default permission of 1000, adding to permission list
+2020-02-13T21:18:38 6.713 INF UMA Overlay loading took 3246 ms
+2020-02-13T21:18:38 6.717 INF UMA Slot loading took 4 ms
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All passes removed
+2020-02-13T21:18:40 8.768 INF WorldStaticData.Init() needed 2.039s
+2020-02-13T21:18:40 8.788 INF Started Telnet on 8081
+2020-02-13T21:18:40 8.790 INF Awake done in 8642 ms
+2020-02-13T21:18:40 8.841 INF NET: Starting server protocols
+2020-02-13T21:18:40 8.843 INF [NET] Disabling protocol: SteamNetworking
+Fallback handler could not load library /valve/game/7DaysToDieServer_Data/Mono/libKernel32
+Fallback handler could not load library /valve/game/7DaysToDieServer_Data/Mono/libKernel32.so
+Fallback handler could not load library /valve/game/7DaysToDieServer_Data/Mono/Kernel32
+Fallback handler could not load library /valve/game/7DaysToDieServer_Data/Mono/libKernel32
+Fallback handler could not load library /valve/game/7DaysToDieServer_Data/Mono/libKernel32.so
+Fallback handler could not load library /valve/game/7DaysToDieServer_Data/Mono/libKernel32
+2020-02-13T21:18:40 8.929 INF NET: LiteNetLib server started
+2020-02-13T21:18:40 8.936 INF StartGame
+2020-02-13T21:18:41 9.211 INF Persistent GamePrefs saved
+GamePref.AdminFileName = serveradmin.xml
+GamePref.AirDropFrequency = 72
+GamePref.AirDropMarker = False
+GamePref.AutopilotMode = 0
+GamePref.BedrollDeadZoneSize = 25
+GamePref.BedrollExpiryTime = 120
+GamePref.BlockDamageAI = 50
+GamePref.BlockDamageAIBM = 100
+GamePref.BlockDamagePlayer = 150
+GamePref.BloodMoonEnemyCount = 8
+GamePref.BloodMoonFrequency = 0
+GamePref.BloodMoonRange = 0
+GamePref.BloodMoonWarning = 8
+GamePref.BuildCreate = False
+GamePref.ConnectToServerIP = 127.0.0.1
+GamePref.ConnectToServerPort = 26900
+GamePref.ControlPanelEnabled = False
+GamePref.ControlPanelPort = 8080
+GamePref.CraftTimer = 
+GamePref.CreateLevelDim = 8
+GamePref.CreateLevelName = My Level
+GamePref.CreativeMenuEnabled = False
+GamePref.DayCount = 3
+GamePref.DayLightLength = 18
+GamePref.DayNightLength = 120
+GamePref.DebugMenuEnabled = False
+GamePref.DebugMenuShowTasks = False
+GamePref.DebugStopEnemiesMoving = False
+GamePref.DropOnDeath = 2
+GamePref.DropOnQuit = 0
+GamePref.DynamicSpawner = 
+GamePref.EACEnabled = True
+GamePref.EnemyDifficulty = 0
+GamePref.EnemySpawnMode = True
+GamePref.FavoriteServersList = 
+GamePref.FragLimit = 20
+GamePref.GameDifficulty = 2
+GamePref.GameGuidClient = 
+GamePref.GameMode = GameModeSurvival
+GamePref.GameName = My Game
+GamePref.GameNameClient = My Game
+GamePref.GameVersion = Alpha 18.3
+GamePref.GameWorld = Navezgane
+GamePref.HideCommandExecutionLog = 0
+GamePref.JoiningOptions = True
+GamePref.LandClaimCount = 1
+GamePref.LandClaimDeadZone = 30
+GamePref.LandClaimDecayMode = 0
+GamePref.LandClaimExpiryTime = 7
+GamePref.LandClaimOfflineDelay = 0
+GamePref.LandClaimOfflineDurabilityModifier = 4
+GamePref.LandClaimOnlineDurabilityModifier = 4
+GamePref.LandClaimSize = 41
+GamePref.LastGameResetRevision = 0
+GamePref.LastLoadedPrefab = 
+GamePref.LastLoadedPrefabSize = 
+GamePref.LootAbundance = 150
+GamePref.LootRespawnDays = 7
+GamePref.LootTimer = 
+GamePref.MatchLength = 10
+GamePref.MaxSpawnedAnimals = 50
+GamePref.MaxSpawnedZombies = 60
+GamePref.MaxUncoveredMapChunksPerPlayer = 131072
+GamePref.NoGraphicsMode = True
+GamePref.OptionsAA = 1
+GamePref.OptionsAllowController = True
+GamePref.OptionsAmbientVolumeLevel = 1
+GamePref.OptionsAudioOcclusion = False
+GamePref.OptionsBackgroundGlobalOpacity = 0.75
+GamePref.OptionsControllerVibration = True
+GamePref.OptionsDeferredLighting = True
+GamePref.OptionsDisableChunkLODs = False
+GamePref.OptionsDynamicMusicDailyTime = 0.3
+GamePref.OptionsDynamicMusicEnabled = False
+GamePref.OptionsFieldOfView = 65
+GamePref.OptionsFieldOfViewNew = 65
+GamePref.OptionsForegroundGlobalOpacity = 1
+GamePref.OptionsGamma = 0.375
+GamePref.OptionsGfxBloom = True
+GamePref.OptionsGfxDOF = False
+GamePref.OptionsGfxMotionBlur = 1
+GamePref.OptionsGfxOcclusion = True
+GamePref.OptionsGfxSSAO = True
+GamePref.OptionsGfxSSReflections = 1
+GamePref.OptionsGfxSunShafts = True
+GamePref.OptionsGraphicsQuality = 2
+GamePref.OptionsGrassDistance = 1
+GamePref.OptionsHudOpacity = 1
+GamePref.OptionsHudSize = 2
+GamePref.OptionsInterfaceSensitivity = 0.75
+GamePref.OptionsInvertMouse = False
+GamePref.OptionsJournalPopup = True
+GamePref.OptionsLODDistance = 0.5
+GamePref.OptionsMenuMusicVolumeLevel = 0.7
+GamePref.OptionsMicVolumeLevel = 0.75
+GamePref.OptionsMouseSensitivity = 0.5
+GamePref.OptionsMusicVolumeLevel = 0.2
+GamePref.OptionsObjectQuality = 3
+GamePref.OptionsOverallAudioVolumeLevel = 1
+GamePref.OptionsPlayChanceFrequency = 3
+GamePref.OptionsPlayChanceProbability = 0.983
+GamePref.OptionsPlayerModel = playerMale
+GamePref.OptionsPlayerModelTexture = Player/Male/Player_male
+GamePref.OptionsPOICulling = 1
+GamePref.OptionsReflectedShadows = False
+GamePref.OptionsReflectionBounces = 0
+GamePref.OptionsReflectionCullList = Default
+GamePref.OptionsReflectionFarClip = 3000
+GamePref.OptionsReflectionQuality = 1
+GamePref.OptionsReflectionRefreshMode = ViaScripting
+GamePref.OptionsReflectionRefreshRate = 0
+GamePref.OptionsReflectionShadowDistance = 60
+GamePref.OptionsReflectionTimeSlicingMode = IndividualFaces
+GamePref.OptionsResolution = 0
+GamePref.OptionsScreenBoundsValue = 1
+GamePref.OptionsShadowDistance = 1
+GamePref.OptionsShowCompass = True
+GamePref.OptionsShowCrosshair = True
+GamePref.OptionsStabSpawnBlocksOnGround = True
+GamePref.OptionsStreamingMipmapsBudget = 4096
+GamePref.OptionsStreamingMipmapsEnabled = True
+GamePref.OptionsTempCelsius = False
+GamePref.OptionsTerrainQuality = 3
+GamePref.OptionsTextureFilter = 1
+GamePref.OptionsTextureQuality = 1
+GamePref.OptionsTreeDistance = 4
+GamePref.OptionsUMATextureQuality = 1
+GamePref.OptionsViewDistance = 6
+GamePref.OptionsVoiceChatEnabled = True
+GamePref.OptionsVoiceVolumeLevel = 0.75
+GamePref.OptionsVsync = 1
+GamePref.OptionsWaterParticleLimiter = 0.5
+GamePref.OptionsWaterQuality = 1
+GamePref.OptionsZoomMouseSensitivity = 0.5
+GamePref.PartySharedKillRange = 100
+GamePref.PersistentPlayerProfiles = False
+GamePref.PlayerAutologin = False
+GamePref.PlayerId = 
+GamePref.PlayerKillingMode = 3
+GamePref.PlayerName = Player
+GamePref.PlayerSafeZoneHours = 12
+GamePref.PlayerSafeZoneLevel = 10
+GamePref.PlayerToken = 
+GamePref.RebuildMap = False
+GamePref.SaveGameFolder = /root/.local/share/7DaysToDie/Saves
+GamePref.SelectionContextMode = 0
+GamePref.SelectionOperationMode = 0
+GamePref.ServerAdminSlots = 0
+GamePref.ServerAdminSlotsPermission = 0
+GamePref.ServerDescription = A 7 Days to Die server
+GamePref.ServerDisabledNetworkProtocols = SteamNetworking
+GamePref.ServerIP = 
+GamePref.ServerIsPublic = True
+GamePref.ServerLoginConfirmationText = 
+GamePref.ServerMaxAllowedViewDistance = 12
+GamePref.ServerMaxPlayerCount = 8
+GamePref.ServerMaxWorldTransferSpeedKiBs = 512
+GamePref.ServerName = [DBZ] 7d2d dedicated server 24/7
+GamePref.ServerPort = 26900
+GamePref.ServerReservedSlots = 0
+GamePref.ServerReservedSlotsPermission = 100
+GamePref.ServerVisibility = 2
+GamePref.ServerWebsiteURL = 
+GamePref.ShowFriendPlayerOnMap = True
+GamePref.TelnetEnabled = True
+GamePref.TelnetFailedLoginLimit = 10
+GamePref.TelnetFailedLoginsBlocktime = 10
+GamePref.TelnetPort = 8081
+GamePref.TerminalWindowEnabled = True
+GamePref.UNUSED_OptionsBloom = 
+GamePref.UNUSED_OptionsDOF = 
+GamePref.UNUSED_OptionsImageEffects = 
+GamePref.UNUSED_OptionsMotionBlur = 
+GamePref.UNUSED_OptionsObjectBlur = 
+GamePref.UNUSED_OptionsSSAO = 
+GamePref.UNUSED_OptionsSunShafts = 
+GamePref.UserDataFolder = /root/.local/share/7DaysToDie
+GamePref.WorldGenSeed = asdf
+GamePref.WorldGenSize = 4096
+GamePref.XPMultiplier = 150
+GamePref.ZombieBMMove = 3
+GamePref.ZombieFeralMove = 3
+GamePref.ZombieMove = 0
+GamePref.ZombieMoveNight = 3
+GamePref.ZombiePlayers = True
+GameStat.AirDropFrequency = 0
+GameStat.AirDropMarker = False
+GameStat.AllowedViewDistance = 12
+GameStat.AnimalCount = 0
+GameStat.AutoParty = False
+GameStat.BedrollExpiryTime = 45
+GameStat.BlockDamagePlayer = 100
+GameStat.BloodMoonDay = 0
+GameStat.BloodMoonEnemyCount = 8
+GameStat.BloodMoonWarning = 8
+GameStat.ChunkStabilityEnabled = True
+GameStat.CraftTimer = 
+GameStat.CurrentRoundIx = 0
+GameStat.DayLightLength = 18
+GameStat.DayLimitActive = False
+GameStat.DayLimitThisRound = 0
+GameStat.DropOnDeath = 1
+GameStat.DropOnQuit = 0
+GameStat.EnemyCount = 0
+GameStat.EnemyDifficulty = Normal
+GameStat.EnemySpawnMode = True
+GameStat.FragLimitActive = False
+GameStat.FragLimitThisRound = 0
+GameStat.GameDifficulty = 2
+GameStat.GameDifficultyBonus = 1
+GameStat.GameModeId = 0
+GameStat.GameState = 0
+GameStat.GlobalMessageToShow = 
+GameStat.IsCreativeMenuEnabled = False
+GameStat.IsFlyingEnabled = False
+GameStat.IsPlayerCollisionEnabled = True
+GameStat.IsPlayerDamageEnabled = True
+GameStat.IsResetMapOnRestart = False
+GameStat.IsSaveSupplyCrates = True
+GameStat.IsSpawnEnemies = True
+GameStat.IsSpawnNearOtherPlayer = False
+GameStat.IsTeleportEnabled = False
+GameStat.IsVersionCheckDone = False
+GameStat.LandClaimCount = 1
+GameStat.LandClaimDeadZone = 30
+GameStat.LandClaimDecayMode = 0
+GameStat.LandClaimExpiryTime = 3
+GameStat.LandClaimOfflineDelay = 0
+GameStat.LandClaimOfflineDurabilityModifier = 32
+GameStat.LandClaimOnlineDurabilityModifier = 32
+GameStat.LandClaimSize = 41
+GameStat.LoadScene = 
+GameStat.LootTimer = 
+GameStat.OptionsPOICulling = 0
+GameStat.PartySharedKillRange = 100
+GameStat.PlayerKillingMode = KillStrangersOnly
+GameStat.ScoreDiedMultiplier = -5
+GameStat.ScorePlayerKillMultiplier = 1
+GameStat.ScoreZombieKillMultiplier = 1
+GameStat.ShowAllPlayersOnMap = False
+GameStat.ShowFriendPlayerOnMap = True
+GameStat.ShowSpawnWindow = False
+GameStat.ShowWindow = 
+GameStat.ShowZombieCounter = False
+GameStat.TimeLimitActive = False
+GameStat.TimeLimitThisRound = 0
+GameStat.TimeOfDayIncPerSec = 20
+GameStat.XPMultiplier = 100
+GameStat.ZombieHordeMeter = False
+2020-02-13T21:18:41 9.311 INF StartAsServer
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All passes removed
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All passes removed
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All passes removed
+2020-02-13T21:19:03 31.765 INF Block IDs with mapping
+2020-02-13T21:19:03 31.766 INF BlockIDs from Mapping
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All passes removed
+2020-02-13T21:19:10 38.195 INF Item IDs with mapping
+2020-02-13T21:19:10 38.196 INF ItemIDs from Mapping
+WARNING: Shader Unsupported: 'Hidden/Dof/DX11Dof' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/Dof/DX11Dof' - Setting to default shader.
+HDR Render Texture not supported, disabling HDR on reflection probe.
+ 
+(Filename: ./Runtime/Camera/ReflectionProbes.cpp Line: 269)
+
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All passes removed
+2020-02-13T21:19:29 57.481 INF createWorld: Navezgane, My Game, GameModeSurvival
+2020-02-13T21:19:29 57.489 INF Occlusion: Disabled
+2020-02-13T21:19:29 57.549 INF Started thread ChunkRegeneration
+2020-02-13T21:19:29 57.550 INF Started thread ChunkCalc
+2020-02-13T21:19:29 57.709 INF World.Load: Navezgane
+2020-02-13T21:19:29 57.718 INF Loading base world file header...
+2020-02-13T21:19:29 57.735 INF Loaded world file from different version: 'Alpha 18 (b35)'
+2020-02-13T21:19:29 57.749 INF BloodMoon SetDay: day 0, last day 0, freq 0, range 0
+2020-02-13T21:19:29 57.765 INF BloodMoon SetDay: day 0, last day 0, freq 0, range 0
+2020-02-13T21:19:29 57.766 INF BloodMoon SetDay: day 0, last day 0, freq 0, range 0
+2020-02-13T21:19:40 68.862 INF Started thread GenerateChunks
+2020-02-13T21:19:41 69.499 INF Loading dtm raw file took 543ms
+2020-02-13T21:19:41 69.779 INF Biomes image size w= 3072, h = 3072
+2020-02-13T21:19:42 70.168 INF Loading and creating biomes took 668ms
+2020-02-13T21:19:47 75.442 INF Loading and creating shader control textures took 5274ms
+2020-02-13T21:19:48 76.410 INF Loading and parsing of generator took 967ms
+2020-02-13T21:19:48 76.470 INF Started thread SaveChunks /root/.local/share/7DaysToDie/Saves/Navezgane/My Game/Region
+2020-02-13T21:19:51 79.517 INF [DECO] read 0/0
+2020-02-13T21:19:52 80.436 INF AstarManager Init
+2020-02-13T21:19:53 81.544 INF Weather Packages Created FROM BIOMES
+2020-02-13T21:19:53 81.544 INF createWorld() done
+2020-02-13T21:19:53 81.546 INF Calculating world hashes
+2020-02-13T21:19:53 81.552 INF Loading players.xml
+2020-02-13T21:19:53 81.630 INF Loaded player
+2020-02-13T21:19:53 81.854 INF Setting for 'DayNightLength' does not match the default (server will go to the modded category): current = 120, default = 60
+2020-02-13T21:19:53 81.854 INF Setting for 'DropOnDeath' does not match the default (server will go to the modded category): current = 2, default = 1
+2020-02-13T21:19:53 81.854 INF Setting for 'BlockDamagePlayer' does not match the default (server will go to the modded category): current = 150, default = 100
+2020-02-13T21:19:53 81.854 INF Setting for 'BlockDamageAI' does not match the default (server will go to the modded category): current = 50, default = 100
+2020-02-13T21:19:53 81.854 INF Setting for 'LootRespawnDays' does not match the default (server will go to the modded category): current = 7, default = 30
+2020-02-13T21:19:53 81.854 INF Setting for 'LootAbundance' does not match the default (server will go to the modded category): current = 150, default = 100
+2020-02-13T21:19:53 81.854 INF Setting for 'XPMultiplier' does not match the default (server will go to the modded category): current = 150, default = 100
+2020-02-13T21:19:53 81.855 INF [EAC] Starting EAC server
+2020-02-13T21:19:53 81.895 INF [EAC] Log: [EAC Server]  [Info] [SetLogCallback] Procedure: 0x41193ec0 LogLevel: Verb.
+2020-02-13T21:19:53 81.895 INF [EAC] Log: [EAC Server]  [Info] [Initialize] ServerName: '7 Days To Die' RegisterTimeout: 60.
+2020-02-13T21:19:53 81.901 INF [EAC] Log: [EAC Server]  [Info] [Cerberus] [RegisterEvent] EventID: 1h EventName: 'game_round_start' Parameters: { map_name (string) }.
+2020-02-13T21:19:53 81.901 INF [EAC] Log: [EAC Server]  [Info] [Cerberus] [RegisterEvent] EventID: 2h EventName: 'game_round_end' Parameters: { winning_team_id (uint32) }.
+2020-02-13T21:19:53 81.901 INF [EAC] Log: [EAC Server]  [Info] [Cerberus] [RegisterEvent] EventID: 3h EventName: 'player_spawn' Parameters: { player (client), team_id (uint32), character_id (uint32) }.
+2020-02-13T21:19:53 81.901 INF [EAC] Log: [EAC Server]  [Info] [Cerberus] [RegisterEvent] EventID: 4h EventName: 'player_despawn' Parameters: { player (client), player_death (uint32), player_killer (client) }.
+2020-02-13T21:19:53 81.901 INF [EAC] Log: [EAC Server]  [Info] [Cerberus] [RegisterEvent] EventID: 5h EventName: 'player_revive' Parameters: { player_revived (client), player_reviving (client) }.
+2020-02-13T21:19:53 81.901 INF [EAC] Log: [EAC Server]  [Info] [Cerberus] [RegisterEvent] EventID: 6h EventName: 'player_tick' Parameters: { player (client), player_position (vec3f), player_viewrotation (quat), player_health (uint32), player_tickflags (uint32) }.
+2020-02-13T21:19:53 81.902 INF [EAC] Log: [EAC Server]  [Info] [Cerberus] [RegisterEvent] EventID: 7h EventName: 'player_useweapon' Parameters: { player (client), player_position (vec3f), player_viewrotation (quat), player_fov (uint32), weapon_id (uint32), melee_attack (uint32) }.
+2020-02-13T21:19:53 81.902 INF [EAC] Log: [EAC Server]  [Info] [Cerberus] [RegisterEvent] EventID: 8h EventName: 'player_takedamage' Parameters: { player_victim (client), player_victim_position (vec3f), player_victim_viewrotation (quat), player_attacker (client), player_attacker_position (vec3f), player_attacker_viewrotation (quat), player_attacker_fov (uint32), weapon_id (uint32), hitbone_id (uint32), damage_taken (uint32), damage_flags (uint32) }.
+2020-02-13T21:19:53 81.902 INF [EAC] Log: [EAC Server]  [Info] [Cerberus] [RegisterEvent] EventID: 9h EventName: 'player_downed' Parameters: { player_victim (client), player_attacker (client) }.
+2020-02-13T21:19:53 81.902 INF [EAC] Log: [EAC Server]  [Info] [Cerberus] [RegisterEvent] EventID: Ah EventName: 'player_death' Parameters: { victim (client), victim_shots_fired (uint64), victim_shots_landed (uint64), attacker (client), attacker_shots_fired (uint64), attacker_shots_landed (uint64) }.
+2020-02-13T21:19:53 81.902 INF [EAC] Log: [EAC Server]  [Info] [Cerberus] [RegisterEvent] EventID: Bh EventName: 'game_round_start_v2' Parameters: { map_name (string), mode_name (string), round_time_seconds (uint32), start_frame_number (uint64), start_delta_seconds (uint32) }.
+2020-02-13T21:19:54 82.036 INF StartGame done
+2020-02-13T21:19:54 82.971 INF [Steamworks.NET] GameServer.Init successful
+2020-02-13T21:19:54 82.980 INF [Steamworks.NET] Making server public
+2020-02-13T21:19:56 84.339 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90132659258572808, public IP=91.122.46.55
+2020-02-13T21:20:04 92.271 INF Calculating hashes took 10724 ms (world size 683 MiB)
