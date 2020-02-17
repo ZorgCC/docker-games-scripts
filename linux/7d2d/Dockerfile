@@ -4,17 +4,22 @@
 FROM epicmorg/linux-steamcmd
 LABEL maintainer="Guahos, chipmunkzombie@gmail.com"
 
-#Vols, dirs & vars
+#Steam App ID
+ARG STEAM_APP_ID=294420
+
+#Vols & dirs
 WORKDIR ${VALVE_GAME_FOLDER}
 VOLUME ${VALVE_VOLUME_FOLDER}
-ARG STEAM_APP_ID=294420
 ENV LD_LIBRARY_PATH ${VALVE_STEAMCMD_FOLDER}/linux64/
+RUN mkdir ${VALVE_VOLUME_FOLDER}/worldsave && chmod 777 ${VALVE_VOLUME_FOLDER}/worldsave && \
+    mkdir ${VALVE_VOLUME_FOLDER}/worlddata && chmod 777 ${VALVE_VOLUME_FOLDER}/worlddata
 
 #Expose ports
 EXPOSE 26900/tcp
 EXPOSE 26900/udp
 EXPOSE 26901/udp
 EXPOSE 26902/udp
+EXPOSE 26903/udp
 EXPOSE 8080/tcp
 EXPOSE 8081/tcp
 
@@ -28,6 +33,5 @@ RUN chmod +x /entrypoint.sh
 
 
 #Run the server
-CMD /entrypoint.sh
-ENTRYPOINT ["/usr/bin/tini", "--"]
+CMD ["/bin/bash", "/entrypoint.sh"]
 
