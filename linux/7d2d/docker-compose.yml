@@ -8,5 +8,5 @@ services:
       - "8080-8081:8080-8081"
     restart: always
     volumes:
-      - ./vol:/valve/volume
+      - /docker/7test/vol:/valve/volume
 
