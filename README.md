@@ -1,8 +1,6 @@
 ### :zap: Docker Games (scripsts) :zap:
-Awesome docker containers with some games, based on our main images
+Awesome docker containers with some games, based on our main images.
 
-### :video_game: Supported games
-* [Here](GAMES.md)
-
-### :speak_no_evil: Contributors
-* [Here](CONTRIBUTORS.md)
+> [!IMPORTANT]  
+> **Progect was merged to core project:**
+* https://github.com/EpicMorg/docker/tree/master/games
